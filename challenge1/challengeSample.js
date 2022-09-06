@@ -1,3 +1,13 @@
+// ?
+// ! https://adventjs.dev/challenges/01
+// ?
+
+// ? Return a list with the right Sheeps.
+// ? The list must contains the following elements:
+// ? Sheep with: color red and must contains the following characters:
+// ? "a" & "n"
+
+
 const sheeps = [
   { name: "Noa", color: "azul" },
   { name: "Euge", color: "rojo" },
