@@ -10,7 +10,7 @@ const talk = (text) => {
 };
 
 function getTheNumber(num) {
-  let testPromise = new Promise(function (resolve, reject) {
+  return new Promise(function (resolve, reject) {
     if (num === 2) {
       const result = talk("that was nice");
       const bodyAnswer = {
@@ -30,7 +30,6 @@ function getTheNumber(num) {
       reject(bodyAnswer);
     }
   });
-  return testPromise;
 }
 getTheNumber(2)
   .then(function (x) {
